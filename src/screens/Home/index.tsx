@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Text, View } from 'react-native';
+import { useLinkTo } from '@react-navigation/native';
 
 import styles from './styles';
-import { useLinkTo } from '@react-navigation/native';
 
 const Home: React.FC = () => {
   const linkTo = useLinkTo();
