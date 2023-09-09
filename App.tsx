@@ -1,8 +1,14 @@
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { Text } from 'react-native';
+
+import Routes from './src/Routes';
 
 const App: React.FC = () => {
-  return <Text>Hello, World!</Text>;
+  return (
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
+  );
 };
 
 export default App;
