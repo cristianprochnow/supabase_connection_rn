@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <View style={styles.container}>
       <View style={styles.headingWrapper}>
-        <Text style={styles.headingText}>Bem-vindo! 👋</Text>
+        <Text style={styles.headingText}>Bem-vindo(a)! 👋</Text>
       </View>
 
       <View style={styles.buttonsWrapper}>
