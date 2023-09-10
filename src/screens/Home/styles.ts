@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 16,
     flex: 1,
     justifyContent: 'center',
+    gap: 8,
   },
   headingWrapper: {
     marginHorizontal: 16,

@@ -5,14 +5,14 @@ import styles from './styles';
 
 type InputProps = {
   label: string;
-  placeholder: string;
+  placeholder?: string;
 };
 
 const Input: React.FC<InputProps> = ({ label, placeholder }: InputProps) => {
   return (
     <View>
       <Text style={styles.label}>{label}</Text>
-      <TextInput style={styles.input} placeholder={placeholder} />
+      <TextInput style={styles.input} placeholder={placeholder || ''} />
     </View>
   );
 };

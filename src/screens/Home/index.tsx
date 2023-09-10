@@ -14,16 +14,18 @@ const Home: React.FC = () => {
       </View>
 
       <View style={styles.buttonsWrapper}>
-        <Button
-          title="Fazer cadastro de tarefas"
-          onPress={onPressedRegisterTask}
-        />
+        <Button title="Colaboradores" onPress={onPressedColaborators} />
+        <Button title="Tarefas" onPress={onPressedTask} />
       </View>
     </View>
   );
 
-  function onPressedRegisterTask() {
-    linkTo('/RegisterTask');
+  function onPressedTask() {
+    linkTo('/Tasks');
+  }
+
+  function onPressedColaborators() {
+    linkTo('/Colaborators');
   }
 };
 
